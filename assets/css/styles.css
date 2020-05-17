@@ -111,7 +111,7 @@ section#robyn {
      font-size: 45px;
      padding-bottom: 40px;
      font-style: italic;
-     color: black;
+     font-color: black;
 }
 
  h2 {
@@ -201,6 +201,7 @@ section#robyn {
      text-align: center;
      display: none;
      max-width: 30%;
+     background: grey;
    
 }
 .logo h2 {
@@ -217,23 +218,20 @@ section#robyn {
     margin: 0 auto;
  }
 
+
 nav ul li {
-         display: none;
-     }
+         display:block;
+         float:right;
+         padding-left: 30px;
+         padding-top: 30px;
+         padding-right: 0px;
+         font-size: 15px;
      
-
-.logo {
-        display: unset;
-        float: right;
-        max-height: 80%;
-        max-width: 70%;
-     }
-
  
 }
 
 
-@media screen and (min-width: 650px) { @media screen and (min-width: 650px) {
+@media screen and (min-width: 650px) { 
      .wrapper {
          width: 650px;
          margin: 0 auto;
@@ -241,15 +239,14 @@ nav ul li {
      title {
          max-width: 650px;
     }
+     
      nav ul li {
-         display: none;
-     }
-     .logo {
-        display: unset;
-        float: right;
-        max-width: 60%
-     }
-
+         display:block;
+         float:right;
+         padding-left: 40px;
+         padding-top: 30px;
+         padding-right: 5px;
+         font-size: 10px;
 
 }
  @media screen and (min-width: 750px){
@@ -285,7 +282,13 @@ nav ul li {
         .logo {
             display: unset;
             float: left;
+            max-width: 20%;
+
         }
+
+       .logo h2 {
+        font-size: 30px;
+       }
        
          @media screen and (min-width: 1200px) {
              .wrapper {
@@ -298,10 +301,10 @@ nav ul li {
              nav ul li {
                  display:inline-block;
                  color:black;
-                 padding-left: 20px;
+                 padding-left: 10px;
                  padding-top: 30px;
-                 padding-right: 30px;
-                 font-size: 20px;
+                 padding-right: 5px;
+                 font-size: 15px;
             }
 
         .logo {
@@ -310,17 +313,20 @@ nav ul li {
             
         }
         }
+
+        @media screen and (min-width: 1300px) {
+        .wrapper {
+            width: 1300px;
+            margin: 0 auto
+        }
+        nav ul li {
+                 display:inline-block;
+                 color:black;
+                 padding-left: 30px;
+                 padding-top: 30px;
+                 padding-right: 10px;
+                 font-size: 20px;
+
  /* -----------END OF CODE---------------*/ 
 
- /* -------HAMBURGER--------------*/
-/* Screen reader only */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}
+ 
