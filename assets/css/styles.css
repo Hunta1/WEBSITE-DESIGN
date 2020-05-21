@@ -239,11 +239,24 @@ nav ul li {
          padding-left: 30px;
          padding-top: 30px;
          padding-right: 0px;
-         font-size: 15px;
-     
- 
+         font-size: 15px;    
+}
 }
 
+@media screen and (min-width: 600px) {
+ .wrapper {
+    width:600px;
+    margin: 0 auto;
+ }
+ nav ul li {
+         display:block;
+         float:right;
+         padding-left: 30px;
+         padding-top: 30px;
+         padding-right: 5px;
+         font-size: 10px;
+
+}
 
 @media screen and (min-width: 650px) { 
      .wrapper {
@@ -340,6 +353,13 @@ nav ul li {
                  padding-top: 30px;
                  padding-right: 10px;
                  font-size: 20px;
+             }
 
  /* -----------END OF CODE---------------*/ 
 
+ section#descript h3 {
+    border-bottom: unset;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: underline 
+ }
