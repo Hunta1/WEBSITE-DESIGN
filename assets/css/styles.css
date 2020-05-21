@@ -8,15 +8,22 @@
      letter-spacing:1px;
 
 }
+
+ html  {
+     scroll-behavior: smooth;
+}
+
  title {
      text-align: center;
 }
  figure {
      padding-top: 10px;
+
 }
  figcaption {
      color: #D3D3D3;
      font-weight: lighter;
+     padding-bottom: 20px;
 }
  img {
      width:70%;
@@ -37,7 +44,7 @@ section#intro {
     padding-top: 8rem;
 }
 section#hist {
-    padding-top: 7rem;
+    padding-top: 15rem;
 }
 section#robyn {
     padding-top: 7rem;
@@ -48,7 +55,8 @@ section#robyn {
  #intro img {
      padding-bottom: 20px;
      padding-top: 20px;
-     width: 90%;
+     width: 100%;
+
 }
 }
  #descript img {
@@ -62,6 +70,7 @@ section#robyn {
      padding-top: 20px;
      float: right;
      width: 100%;
+
 }
  #robyn img {
      padding-bottom: 20px;
@@ -71,7 +80,7 @@ section#robyn {
      width: 100%;
 }
 #style img {
-     float: left;
+
      width: 80%;
      padding-top: 30px;
      padding-bottom: 20px;
@@ -80,20 +89,24 @@ section#robyn {
  #descript figure{
      width: 60%;
      float: right;
+     padding-left: 20px;
 }
 
  #hist figure{
      width: 60%;
      float: right;
+     padding-left: 20px;
 }
  #robyn figure{
      width: 60%;
      float: left;
-     padding-right: 50px;
+     padding-right: 20px;
+
 }
 #style figure {
     width: 60%;
     float: left;
+
     
     
     }
@@ -158,6 +171,7 @@ section#robyn {
      display:inline-block;
      color:black;
      padding-right: 30px;
+     padding-left: 20px;
      
 }
  nav ul {
@@ -329,4 +343,3 @@ nav ul li {
 
  /* -----------END OF CODE---------------*/ 
 
- 
